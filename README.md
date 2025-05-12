@@ -1,50 +1,49 @@
-# 👋 Hi, I'm Kiratmeet Singh
+# 🏦 Loan Approval Prediction System
 
-### 📌 Student @ Guru Tegh Bahadur Institute of Technology (GTBIT) | Aspiring Data Scientist 
-
----
-
-🔬 Passionate about solving real-world problems using **Artificial Intelligence** and **Machine Learning**.  
-💻 Skilled in **Python**, **C/C++**, and tools like **Pandas**, **Scikit-learn**, **Flask**, and **TensorFlow**.  
-🌐 I build end-to-end ML & AI projects using **Flask**, **React**, **MongoDB**, and **NLP**.
+A machine learning project that predicts whether a loan should be approved or rejected based on applicant financial data using **XGBoost** and **Random Forest** classifiers.
 
 ---
 
-## 🚀 Current Projects
-- 🧠 **Mental Health Chatbot** – NLP-powered emotional support chatbot (Sentiment Analysis using VADER, BERT)
-- 🏏 **Cricket Score Prediction** – ML models (XGBoost, Random Forest) to predict match scores
-- 📊 **Customer Churn Prediction** – Helping businesses reduce churn with ML insights
-- 🎶 **Sentiment-Based Music Recommender** – Suggests songs based on user mood using NLP
-- 🔬 **Disease Prediction System** – Predicts likelihood of diseases from symptoms using ML
-- 🩻 **AI-HealthMate** – X-ray classification + health metric analysis + doctor booking
-- 🎓 **Personalized Study Planner** – Creates study schedules with K-Means & Logistic Regression
+## 📊 Dataset
+
+The dataset includes features like:
+
+- `income_annum`: Annual income of the applicant
+- `loan_amount`: Requested loan amount
+- `loan_term`: Loan tenure in months
+- `cibil_score`: Credit score (300-900)
+- `residential_assets_value`, `commercial_assets_value`, `luxury_assets_value`, `bank_asset_value`: Asset values
+- `loan_status`: Target variable (1 = Approved, 0 = Rejected)
 
 ---
 
-## 🛠️ Tech Stack
-**Languages**: Python, C, C++, JavaScript  
-**Frameworks**: Flask, React, TensorFlow  
-**ML/NLP**: Scikit-learn, NLTK, VADER, XGBoost, Logistic Regression  
-**Database**: MongoDB, Firebase  
-**Tools**: Git, GitHub, Postman, VS Code
+## ⚙️ Technologies Used
+
+- Python 🐍
+- Pandas, NumPy
+- Scikit-learn
+- XGBoost
+- Matplotlib / Seaborn (optional for EDA)
+- Flask (optional for deployment)
 
 ---
 
-## 🌱 I’m Currently Learning
-- Deep Learning (CNNs, RNNs)
-- Advanced NLP (Transformers, BERT)
-- MLOps and Deployment (Docker, Streamlit, CI/CD)
+## 🧠 ML Models
+
+- Models Trained:
+  - ✅ XGBoost Classifier
+  - ✅ Random Forest Classifier
+- Hyperparameter tuning done using `GridSearchCV`
+- Evaluation Metrics:
+  - Accuracy, Precision, Recall, Confusion Matrix
 
 ---
 
-## 📫 Let's Connect
-- 💼 [LinkedIn](www.linkedin.com/in/kiratmeet-singh-1313-ks)
-- 📧 Email: kiratmeetsingh2305@gmail.com
+## 🚀 How to Run
 
----
+### 🛠️ Local Setup
 
-> “Turning data into impactful solutions, one project at a time.”
-
-⭐️ _Feel free to explore my repositories, fork projects, or drop a message. Let’s build something great together!_
-
-
+1. Clone the repository:
+   ```bash
+   git clone https://github.com/KSINGH1313-coder/loan-approval-prediction.git
+   cd loan-approval-prediction
